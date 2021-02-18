@@ -41,7 +41,7 @@ i.fas {
     25% {color: yellow;}
     50% {color: orange;}
     100% {color: red;}
-  }
+}
 
 #my_password {
     display: inline-block;
