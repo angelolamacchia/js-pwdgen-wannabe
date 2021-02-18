@@ -10,24 +10,39 @@ body {
 
 .container {
     text-align: center;
-    width: 100%;
     margin-top: 50px;
+    width: 60%;
+    margin: 60px auto;
 }
 
 .box {
     margin: 0 auto;   
     background-color: rgb(214, 91, 34);
+    color: white;
     border-radius: 15px;
     padding: 0 20px;
 }
 
 .password_box {
-    color: white;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
+
+i.fas {
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes blink {
+    0% {color: white;}
+    25% {color: yellow;}
+    50% {color: orange;}
+    100% {color: red;}
+  }
+
 #my_password {
     display: inline-block;
     width: 100%;
